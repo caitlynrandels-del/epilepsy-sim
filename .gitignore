@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.cache/
+.ipynb_checkpoints/
+.DS_Store
+.~lock.*
+paper/render/
+paper/build_epi.py
