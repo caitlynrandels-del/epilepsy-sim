@@ -1,0 +1,1 @@
+CORE_free score 0.2828 verified True {'sf12': 0.679, 'residual': 0.652, 'eliminated': 0.027, 'cluster_given_sz': 0.299, 'attr_stress': 0.281, 'attr_sleep': 0.284, 'attr_miss': 0.313, 'attr_ill': 0.175, 'attr_catamenial_women': 0.239, 'attr_any': 0.804, 'attr_two_plus': 0.451}

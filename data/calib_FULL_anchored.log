@@ -1,0 +1,1 @@
+FULL_anchored score 0.2239 verified True {'sf12': 0.721, 'residual': 0.693, 'eliminated': 0.028, 'cluster_given_sz': 0.27, 'attr_stress': 0.277, 'attr_sleep': 0.25, 'attr_miss': 0.419, 'attr_ill': 0.16, 'attr_catamenial_women': 0.253, 'attr_any': 0.813, 'attr_two_plus': 0.464}
