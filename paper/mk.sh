@@ -1,0 +1,1 @@
+cd "$(dirname "$0")" && python3 analysis_epi.py >/dev/null && rm -f build_epi.py && cat build_part1.py build_part2.py build_part3.py build_part4.py > build_epi.py && python3 build_epi.py 2>&1 | grep -v Warning | tail -${1:-8} | cut -c1-${2:-600}
