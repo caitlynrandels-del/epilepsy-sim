@@ -1,0 +1,128 @@
+{
+ "days": 730,
+ "obs_days": 365,
+ "levy_weights": {
+  "clear": 1,
+  "detach": 7,
+  "fail": 2,
+  "colonize": 14,
+  "exit": 4
+ },
+ "cohort": {
+  "n_circ_probs": [
+   0.5,
+   0.25,
+   0.15,
+   0.1
+  ],
+  "female_frac": 0.5,
+  "catamenial_frac": 0.423,
+  "photosensitive_frac": 0.03,
+  "musicogenic_frac": 1.4e-05,
+  "depression_frac": 0.231,
+  "base_rate": 0.31178465340377953,
+  "lam_sigma": 1.2,
+  "secondary_scale": 0.5,
+  "resp_frac": 0.4999913570724997,
+  "eff_resp": 0.9,
+  "eff_non_lo": 0.2,
+  "eff_non_hi": 0.7
+ },
+ "dyn": {
+  "clear_p": 0.9,
+  "rec_p": 0.35,
+  "refractory": 0.5,
+  "refr_tau": 1.0,
+  "quiesce_p": 0.02,
+  "wake_p": 0.002,
+  "remit_p": 0.0001,
+  "q_rate": 0.03,
+  "miss_drop": 0.5,
+  "miss_wake_mult": 4.0,
+  "cluster_b": 0.9998668863268407
+ },
+ "exposure": {
+  "p_stress": 0.11220421037359754,
+  "dep_stress_mult": 1.5,
+  "p_sleep": 0.07524304360062889,
+  "p_miss": 0.04031838250930172,
+  "p_alc_mod": 0.1,
+  "p_binge": 0.01,
+  "p_ill_onset": 0.0082,
+  "ill_days": 4,
+  "p_lowpressure": 0.16,
+  "p_sensory": 0.05,
+  "p_photic": 0.02,
+  "p_music": 0.6,
+  "emotional_frac": 0.2,
+  "phase_days": 7
+ },
+ "mult": {
+  "m_stress": 1.237358638468096,
+  "m_sleep": 1.3306217862028973,
+  "m_alc_mod": 1.0,
+  "m_binge": 3.0,
+  "m_ill": 1.4542803319842135,
+  "m_weather": 1.14,
+  "m_sensory": 1.1,
+  "m_photic": 5.0,
+  "m_cat": 2.0,
+  "m_music_generic": 1.0,
+  "m_musico_emotional": 20.0,
+  "m_musico_neutral": 2.0
+ },
+ "layers": {
+  "sponge": false,
+  "materials": false,
+  "physics": false,
+  "heat": false,
+  "inhibition": false,
+  "hpa": false,
+  "kindling": false,
+  "network": false
+ },
+ "perceive_ratio": 1.5,
+ "_calibration": {
+  "scenario": "CORE_free",
+  "score": 0.2828100761950099,
+  "observables": {
+   "sf12": 0.6786666666666666,
+   "residual": 0.652,
+   "eliminated": 0.02666666666666667,
+   "cluster_given_sz": 0.2987551867219917,
+   "attr_stress": 0.2805194805194805,
+   "attr_sleep": 0.2837662337662338,
+   "attr_miss": 0.312987012987013,
+   "attr_ill": 0.17532467532467533,
+   "attr_catamenial_women": 0.23859191655801826,
+   "attr_any": 0.8038961038961039,
+   "attr_two_plus": 0.45064935064935063
+  },
+  "in_band": {
+   "sf12": true,
+   "cluster_given_sz": true,
+   "attr_stress": false,
+   "attr_sleep": true,
+   "attr_miss": true,
+   "attr_ill": false,
+   "attr_catamenial_women": true,
+   "attr_any": true,
+   "attr_two_plus": true
+  },
+  "n_eval": 200,
+  "n_persons": 3000,
+  "seed": 101,
+  "free": [
+   "cohort.base_rate",
+   "cohort.resp_frac",
+   "dyn.cluster_b",
+   "exposure.p_stress",
+   "exposure.p_sleep",
+   "exposure.p_miss",
+   "mult.m_ill",
+   "mult.m_stress",
+   "mult.m_sleep"
+  ],
+  "seconds": 263
+ }
+}
