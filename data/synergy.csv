@@ -1,0 +1,13 @@
+combo,a,b,base,key,interaction,lo,hi,n
+combo_stress+sleep_AMPx2,stress_AMPx2,sleep_AMPx2,baseline,seiz_obs,0.0001,-0.01077280322379626,0.010972803223796259,10000
+combo_stress+sleep_AMPx2,stress_AMPx2,sleep_AMPx2,baseline,sf12,-0.0001,-0.00122598887361037,0.0010259888736103698,10000
+combo_binge+sleep_AMPx2,binge_AMPx2,sleep_AMPx2,baseline,seiz_obs,0.0003,-0.00187384589752784,0.00247384589752784,10000
+combo_binge+sleep_AMPx2,binge_AMPx2,sleep_AMPx2,baseline,sf12,-0.0002,-0.00047717199719957853,7.717199719957848e-05,10000
+combo_ill+miss_AMPx2,ill_AMPx2,miss_AMPx2,baseline,seiz_obs,0.0408,0.026688174240721865,0.05491182575927814,10000
+combo_ill+miss_AMPx2,ill_AMPx2,miss_AMPx2,baseline,sf12,-0.0037,-0.005373137408726148,-0.0020268625912738527,10000
+combo_stress+miss_AMPx2,stress_AMPx2,miss_AMPx2,baseline,seiz_obs,0.0618,0.0376535275873556,0.0859464724126444,10000
+combo_stress+miss_AMPx2,stress_AMPx2,miss_AMPx2,baseline,sf12,-0.0055,-0.0077917016275324685,-0.0032082983724675313,10000
+combo_stress+sleep_AMPx2_spongeOFF,stress_AMPx2_spongeOFF,sleep_AMPx2_spongeOFF,baseline_spongeOFF,seiz_obs,0.0183,0.005894497901905358,0.030705502098094643,10000
+combo_stress+sleep_AMPx2_spongeOFF,stress_AMPx2_spongeOFF,sleep_AMPx2_spongeOFF,baseline_spongeOFF,sf12,-0.0005,-0.0018148371913221685,0.0008148371913221685,10000
+stim_threshold_plus_sleeploss,stim_threshold_1.3,stim_neutral_plus_sleeploss,baseline,seiz_obs,0.0374,0.013357008944386933,0.06144299105561307,10000
+stim_threshold_plus_sleeploss,stim_threshold_1.3,stim_neutral_plus_sleeploss,baseline,sf12,-0.0016,-0.0035793535142650598,0.0003793535142650598,10000
