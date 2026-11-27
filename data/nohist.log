@@ -1,0 +1,11 @@
+pilot base_rate 0.006176524549034437 P(seizure/yr) 0.08504999999999996
+pilot base_rate 4.461912619549394e-05 P(seizure/yr) 0.0007000000000000339
+pilot base_rate 3.916284447787164e-05 P(seizure/yr) 0.0006500000000000394
+pilot base_rate 3.701792561108135e-05 P(seizure/yr) 0.0005899999999999794
+                                  name  persons stop_reason  p_seizure_yr_per100k         lo          hi  recon_bad  obs_bad  excess_per100k  excess_lo  excess_hi  n_paired
+0                      nohist_baseline    80000   precision             75.000000  58.276364   96.518203          0        0            0.00   0.000000   0.000000   80000.0
+1             nohist_psilo_low_neutral    80000   precision             75.000000  58.276364   96.518203          0        0            0.00   0.000000   0.000000   80000.0
+2            nohist_psilo_high_neutral    80000   precision             75.000000  58.276364   96.518203          0        0            0.00   0.000000   0.000000   80000.0
+3             nohist_psilo_low_exacerb    80000   precision             75.000000  58.276364   96.518203          0        0            0.00   0.000000   0.000000   80000.0
+4            nohist_psilo_high_exacerb    80000   precision             76.250000  59.370231   97.924215          0        0            1.25  -1.200000   3.700000   80000.0
+5  nohist_psilo_high_exacerb_plus_ssri   120000   precision            116.666667  98.883371  137.643724          0        0           38.75  25.111535  52.388465   80000.0
