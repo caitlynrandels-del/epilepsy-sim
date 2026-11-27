@@ -8,7 +8,7 @@ Adaptation of the Oroboro metastasis relational simulation architecture testbed 
 
 117 scenarios covering approximately 1.13 million simulated people over two years each. All components passed preflight (50/50 checks); every brain’s whole result matched the sum of its independent parts.
 
-This repository now holds the full code, results, notes, and paper (not only the study summary).
+This repository now holds the full code, results, notes, charts, and a page-image view of the paper (not only the study summary).
 
 ## Key results matching public patterns
 
@@ -44,16 +44,17 @@ Mapped as a candidate on-off gate in Oroboro terms (sponge `membrane_gate` / per
 
 ## Paper and starting points
 
-- Paper (PDF): [`paper/Epilepsy_Seizure_Dynamics_Relational_Simulation_Study.pdf`](paper/Epilepsy_Seizure_Dynamics_Relational_Simulation_Study.pdf) (Word copy and build source in `paper/`).
+- Paper: [page-image view](paper/view.html) of the 24-page PDF (build source in `paper/`). The original PDF and Word files could not be stored here as binaries through the connected GitHub interface; they were delivered in chat and remain on the project computer.
 - Plain-language overview: [`README_PLAIN.md`](README_PLAIN.md)
 - Results: [`RESULTS_SUMMARY.md`](RESULTS_SUMMARY.md)
+- Charts (SVG): [`charts/`](charts/)
 - Mapping, parameters, public data: [`MAPPING.md`](MAPPING.md), [`PARAMETERS.md`](PARAMETERS.md), [`PUBLIC_DATA_INPUTS.md`](PUBLIC_DATA_INPUTS.md)
 - Checks and history: [`PREFLIGHT.md`](PREFLIGHT.md), [`ITERATION_LOG.md`](ITERATION_LOG.md)
 
 
 ## What's included here
 
-This public tree has the study paper, code, documentation, charts, calibration and summary results, and the gate/cell-shading notes.
+This public tree has the study paper (page-image view), code, documentation, charts (SVG), calibration and summary results, and the gate/cell-shading notes. Native PNG, PDF and Word binaries are not in the tree because the connected GitHub interface accepts text files only.
 
 Not uploaded (kept on the project computer; cited in [`PUBLIC_DATA_INPUTS.md`](PUBLIC_DATA_INPUTS.md)):
 - Third-party OpenNeuro / SeizeIT2 per-recording event files (`sources/openneuro/`, ~12 MB, 2,800+ files).
