@@ -82,3 +82,10 @@ Architecture testbed, not a calibrated clinical predictor. Some initial literatu
 ---
 
 *Independent research. Speculative modeling only. Not medical advice.*
+
+## Oroboro conjunctive-use audit (27 Nov 2026)
+**Verdict: partially conjunctive. Code unchanged; integrated rebuild pending.** Speculative modeling only; no clinical claims.
+- Already in the loop: the lagged whole-brain Nexus summaries feed the salience recruitment gate and post-ictal homeostasis. Whole vs K parts is bit-identical, and the sponge membrane gate is in-step.
+- Ledger only (not feeding the loop): Levy (the `levy_band` shading layer is observational), Transcriber/Dictator (only with `record=True`), and Genesis (registered once). Delta reconciliation is an accounting check, not an in-step damper.
+- Absent: NaCl polarity mesh / dream-catcher odd loops, mesh-consensus seating, PrinciplesGate, and Levy-pulse damping.
+- A full rebuild on the [one-loop pipeline](https://github.com/caitlynrandels-del/Oroboro/blob/main/research/PIPELINE.md) would change a calibrated, 24-page study, so it was not done in this pass. `python3 code/preflight.py data/calibration/params_FULL_anchored.json` was re-run on 27 Nov 2026: **50/50 PASS**.
